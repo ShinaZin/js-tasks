@@ -11,6 +11,9 @@
     "semi": ["error", "always"],
     "quotes": ["error", "single"],
     "space-in-parens": "warn",
-    "space-infix-ops": "warn"
+    "space-infix-ops": "warn",
+    "indent": [
+      "error", 2
+    ]
   }
 }
