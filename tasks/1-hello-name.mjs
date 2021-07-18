@@ -14,7 +14,10 @@ import { console } from '../libs/console.js';
 // Вывести Hello имя на двух строчках, используя один console.log (нужен спец.символ \n)
 
 async function main() {
-
+  let userName = await console.prompt('Как Вас зовут? ');
+  console.log(`Hello, ${userName}!`);
+  console.log('Hey, '.concat(userName).concat('!'));
+  console.log('Hi, ' + userName + '!');
 }
 
 main();
