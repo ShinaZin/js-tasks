@@ -11,7 +11,14 @@ import { console } from '../libs/console.js';
 // - можно сделать второй параметр со значением по умолчанию = 'Hello'
 
 async function main() {
-
+  const userName = await console.prompt('What`s your name? ');
+  console.log(helloName(userName));
+  console.log(helloName(userName, 'Hola')); // должно вывести Hola, userName
+  console.log(helloName('John Rock 🗿')); 
 }
 
 main();
+
+function helloName(userName, greetingUser = 'Hello') {
+  return greetingUser + ', ' + userName;
+}
