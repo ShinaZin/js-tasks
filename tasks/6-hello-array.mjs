@@ -12,7 +12,19 @@ import { console } from '../libs/console.js';
 // - https://learn.javascript.ru/while-for
 
 async function main() {
+  const array = [];
+  const namesCount = Number(await console.prompt('Enter number of names: '));
 
+  for (let i = 0; i < namesCount; i++) {
+    array.push(await console.prompt(`Enter name № ${i + 1}: `));
+  }
+
+  // for (let i = 0; i < namesCount; i++) {
+  //   console.log(`Hello, ${array[i]}`);
+  // }
+  array.forEach(meow => console.log(`Hey, ${meow} :3`));
+
+  console.log('Hello all!');
 }
 
 main();
