@@ -12,6 +12,7 @@
     "quotes": ["error", "single"],
     "space-in-parens": "warn",
     "space-infix-ops": "warn",
+    "keyword-spacing": ["warn", { "before": true }],
     "indent": [
       "error", 2
     ]
