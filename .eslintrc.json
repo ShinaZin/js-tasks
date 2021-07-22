@@ -14,7 +14,7 @@
     "space-infix-ops": "warn",
     "keyword-spacing": ["warn", { "before": true }],
     "indent": [
-      "error", 2
+      "error", 2, { "SwitchCase": 1 }
     ]
   }
 }
