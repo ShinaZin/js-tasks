@@ -1,4 +1,3 @@
-// @ts-check
 import { console } from '../libs/console.js';
 
 // Написать программу, которая:

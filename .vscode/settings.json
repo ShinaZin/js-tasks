@@ -2,5 +2,8 @@
     "editor.tabSize": 2,
     "files.exclude": {
         "node_modules/": true
-    }
+    },
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "js/ts.implicitProjectConfig.strictNullChecks": true,
+    "js/ts.implicitProjectConfig.strictFunctionTypes": true
 }

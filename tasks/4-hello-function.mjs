@@ -1,4 +1,3 @@
-// @ts-check
 import { console } from '../libs/console.js';
 
 // Написать функцию hello(name), которая будет возвращать строчку Hello, name!

@@ -1,4 +1,3 @@
-// @ts-check
 import { console } from '../libs/console.js';
 
 // Ввести: имя пользователя
