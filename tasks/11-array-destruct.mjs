@@ -11,4 +11,14 @@ function main() {
   console.log(secondAndOther(numbers));
 }
 
+function firstAndSecond(numbers) {
+  const [first, second] = numbers; 
+  return [first, second];
+}
+
+function secondAndOther(numbers) {
+  const [, second, ...rest] = numbers;
+  return { second, other: rest };
+}
+
 main();
