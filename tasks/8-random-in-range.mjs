@@ -6,8 +6,17 @@
 // Если передан только 1 параметр, то считать, что генерируется число от 0 до переданного числа
 // Вынести функцию в отдельный файл /libs/random.mjs
 
-async function main() {
+function main() {
+  const arrayOfRandoms = [];
+  for (let i = 0; i < 30; i++) {
+    arrayOfRandoms.push(random(-5, 15));
+  }
 
+  console.log(arrayOfRandoms);
 }
 
 main();
+
+function random(a, b) {
+  return Math.floor(a + Math.random() * (b - a));
+}
